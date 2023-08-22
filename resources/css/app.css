@@ -1,0 +1,75 @@
+[x-cloak] {
+    display: none;
+}
+.hello{
+    background-color: black;
+}
+.add-product{
+    background-color: #435c70;
+    width: 500px;
+    margin: 1rem auto auto auto;
+    padding: 2rem 3rem;
+    color: #fff;
+}
+.add-product .container .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+.add-product .container .content input{
+    padding: .5rem .5rem;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+}
+.add-product .container .content input[type='file']{
+    cursor: pointer;
+}
+.add-product .container .content textarea{
+    resize: none;
+    padding-inline: .1rem;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+}
+.add-product .container .content input::placeholder,
+.add-product .container .content textarea::placeholder{
+    padding: .2rem;
+}
+.add-product .container .create-product{
+    margin-top: 1rem;
+}
+.add-product .container .create-product button{
+    padding: .5rem 10.2rem;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    background-color: #f5a623;
+    transition: .2s background-color;
+    -webkit-transition: .2s background-color;
+    -moz-transition: .2s background-color;
+    -ms-transition: .2s background-color;
+    -o-transition: .2s background-color;
+}
+.add-product .container .content .select{
+    padding: 10px;
+}
+.add-product .container .create-product button:hover{
+    background-color: #435c70;
+    cursor: pointer;
+    outline: 1px solid #fff;
+}
+@media (max-width:30em) {
+    .add-product .container .content input,
+.add-product .container .content textarea,
+.add-product .container .content .select{
+    max-width: 78%;
+}
+.add-product .container .create-product button{
+padding-inline: 7.6rem;
+}
+}
